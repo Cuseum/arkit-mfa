@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mkp-L2-hoR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="ARPlaneDetector" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gyI-Am-cvx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="mPn-g3-jDE">
+                                <rect key="frame" x="29" y="64" width="306" height="392"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="0" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eh2-F0-e8Q" userLabel="0">
+                                        <rect key="frame" x="0.0" y="0.0" width="306" height="28"/>
+                                        <accessibility key="accessibilityConfiguration" label="0"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Movement - Sea or Mountain as You Will">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="ceD-FP-CeK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" restorationIdentifier="1" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYw-h4-IlJ" userLabel="1">
+                                        <rect key="frame" x="0.0" y="28" width="306" height="28"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="1" label="1"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Arrangement - Heiroglyphics (Painting NO. 2)">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="o6g-Pu-9er"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L18-zh-1WO">
+                                        <rect key="frame" x="0.0" y="56" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Hot Still-Scape for Six Colors 7th Ave Style">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="eH3-AA-MMx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3FH-If-D3c">
+                                        <rect key="frame" x="0.0" y="84" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="George Gershwin - I'll Build a Stairway to Paradise">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="QmN-rs-xIs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIG-rC-5Ps">
+                                        <rect key="frame" x="0.0" y="112" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Ravine">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="kIk-pZ-hQ6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ae9-rt-BXW">
+                                        <rect key="frame" x="0.0" y="140" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Flower Beds at Vetheuil">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Txk-CC-EQB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVM-Hz-0kX">
+                                        <rect key="frame" x="0.0" y="168" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Houses at Auvers">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="s74-Gt-qyQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dnd-sH-dVE">
+                                        <rect key="frame" x="0.0" y="196" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Springtime in France">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="v2M-j3-PHp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JDr-Th-jrP">
+                                        <rect key="frame" x="0.0" y="224" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="The Vixen">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="bIO-JQ-zqe"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JA1-U1-Ebe">
+                                        <rect key="frame" x="0.0" y="252" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Postman Joseph Roulin">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="6zG-Xa-0xU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GW-KP-Fp3">
+                                        <rect key="frame" x="0.0" y="280" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Lullaby: Madame Agustine Roulin Rocking a Cradle">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="aDD-ic-Ifb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEZ-Y5-y2k">
+                                        <rect key="frame" x="0.0" y="308" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Mother and Child in a Boat">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Upf-hn-DIz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r97-4l-8hH">
+                                        <rect key="frame" x="0.0" y="336" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="An Artist in His Studio">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="sfN-26-G6G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Az4-hd-EAo">
+                                        <rect key="frame" x="0.0" y="364" width="306" height="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                        <state key="normal" title="Two Peasant Women in a Meadow">
+                                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="button_press:" destination="BV1-FR-VrT" eventType="touchUpInside" id="GHe-lD-cp4"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cY-4R-yM9">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            </arscnView>
+                            <toolbar hidden="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gfe-lJ-hT2">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="N5I-Kt-eop"/>
+                                    <barButtonItem title="Show planes" id="frH-iH-INF">
+                                        <connections>
+                                            <action selector="tappedShowPlanes:" destination="BV1-FR-VrT" id="vbP-Oz-FH5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Hide planes" id="XLF-x0-eUL">
+                                        <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <connections>
+                                            <action selector="tappedHidePlanes:" destination="BV1-FR-VrT" id="AWc-83-7wE"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="r4N-P3-XtC">
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fyn-96-zZG" firstAttribute="bottom" secondItem="0cY-4R-yM9" secondAttribute="bottom" id="P2x-wI-vGz"/>
+                            <constraint firstItem="0cY-4R-yM9" firstAttribute="leading" secondItem="fyn-96-zZG" secondAttribute="leading" id="ScR-uD-jQW" userLabel="leadingC"/>
+                            <constraint firstItem="fyn-96-zZG" firstAttribute="trailing" secondItem="gfe-lJ-hT2" secondAttribute="trailing" id="Tlk-RG-bpu"/>
+                            <constraint firstItem="fyn-96-zZG" firstAttribute="bottom" secondItem="gfe-lJ-hT2" secondAttribute="bottom" id="YfQ-yo-ZK2"/>
+                            <constraint firstItem="0cY-4R-yM9" firstAttribute="top" secondItem="fyn-96-zZG" secondAttribute="top" id="Zk6-zP-m0r"/>
+                            <constraint firstItem="gfe-lJ-hT2" firstAttribute="leading" secondItem="fyn-96-zZG" secondAttribute="leading" id="ihZ-5K-K43"/>
+                            <constraint firstItem="fyn-96-zZG" firstAttribute="trailing" secondItem="0cY-4R-yM9" secondAttribute="trailing" id="pFK-lS-Jom" userLabel="trailingC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fyn-96-zZG"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4Ui-9U-F8r">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="burger" id="Sih-BR-M52">
+                            <connections>
+                                <action selector="hamburgerBtnTapped:" destination="BV1-FR-VrT" id="PFm-YH-KcA"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="burger" id="sEK-gq-vhx">
+                            <connections>
+                                <action selector="restartExperience:" destination="BV1-FR-VrT" id="JlK-cc-Zye"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="but_0" destination="eh2-F0-e8Q" id="VKx-9w-JwG"/>
+                        <outlet property="but_1" destination="nYw-h4-IlJ" id="QBt-32-Hed"/>
+                        <outlet property="leadingC" destination="ScR-uD-jQW" id="KkV-jN-rdj"/>
+                        <outlet property="restartExperienceButton" destination="sEK-gq-vhx" id="nVG-7Y-8W9"/>
+                        <outlet property="sceneView" destination="0cY-4R-yM9" id="UJr-FE-HpV"/>
+                        <outlet property="trailingC" destination="pFK-lS-Jom" id="aEi-yB-4Xl"/>
+                        <outlet property="view" destination="gyI-Am-cvx" id="2D7-m7-FOC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1052" y="91.304347826086968"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="s9D-9O-Dik">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mkp-L2-hoR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sCI-mk-vFd">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="relationship" relationship="rootViewController" id="9qp-sD-itL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QhX-dI-eXB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem title="Show planes" id="yCq-KE-Tqh">
+                    <connections>
+                        <action selector="tappedShowPlanes:" destination="BV1-FR-VrT" id="whf-FK-Utx"/>
+                    </connections>
+                </barButtonItem>
+            </objects>
+            <point key="canvasLocation" x="39" y="91"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="burger" width="50" height="50"/>
+    </resources>
+    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+</document>
